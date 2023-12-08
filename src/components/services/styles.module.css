@@ -1,0 +1,42 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 20px;
+}
+
+.subCard {
+  background: #eeee;
+  padding: 10px;
+  border-radius: 1em;
+}
+
+.subCard:hover {
+  background: #e6e6e6;
+}
+
+.boxImage {
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.bicImage {
+  width: 100%;
+  height: auto;
+}
+
+.nameroduct {
+  font-size: 30px;
+  font-size: 200;
+  color: #595959;
+}
+
+.nameService {
+  margin-bottom: 1em;
+}
+
+/* @media screen and (max-width: 800px) {
+    .bicImage {
+        width: 100%;
+    }
+} */
